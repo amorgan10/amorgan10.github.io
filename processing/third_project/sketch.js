@@ -1,7 +1,14 @@
 function setup() {
-  // put setup code here
+  createCanvas(250, 250)
 }
 
-function draw() {
-  // put drawing code here
+function draw() {{
+  if (mouseIsPressed){
+    c = color(random(0, 255), random(0, 255), random(0, 255));
+    fill (c);
+  }
+  
 }
+ellipse(125,125,125,125)
+}
+
